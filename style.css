@@ -1,0 +1,144 @@
+body {
+    display: block;
+    margin: 0px;
+}
+
+nav{
+display: flex;
+justify-content: space-between;
+}
+nav h1{
+    font-size: xx-large;
+    font-weight: bolder;
+    margin-left: 150px;
+}
+nav button{
+    background-color: #131945;
+}
+button{
+    width: 150px;
+    height: 55px;  
+    color: white;
+    font-size: large;
+    border: none;
+    border-radius: 20px;
+    margin-top: 15px;
+    margin-right: 25px;
+}
+button:hover{
+    opacity: 0.5;
+}
+.first-part{
+    font-family: sans-serif;
+    padding-left: 150px;
+    display: flex;
+}
+.first-part .left h1{
+    padding-right: 75px;
+    padding-bottom: 30px; 
+    font-size: 55px;
+}
+.first-part .left p{
+    margin-right: 17vw;
+    opacity: 0.5;
+}
+.left button{
+    background: linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%);
+}
+.right img{
+    width: 600px;
+    margin-right: 5vw;
+}
+.second-part{
+    display: flex;
+    justify-content: flex-start;
+    align-content: stretch;
+    flex-flow: row wrap;
+    align-items: stretch;
+    margin-right: 150px;
+    margin-left: 150px;
+    padding-bottom:40px;
+    padding-top: 10px;
+}
+.pink-box{
+    width: 17vw;
+    height: 27vh;
+    margin: 30px;
+    border-radius: 10px;
+    padding: 25px;
+    background: linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%);
+    box-shadow: 10px 5px 5px rgba(92, 89, 89, 0.174) ;
+}
+.pink-box h1{
+    font-family: sans-serif;
+    padding: 15px;
+    color: white;
+}
+.boxes{
+    box-shadow: 10px 5px 5px rgba(92, 89, 89, 0.174);
+    background-color: white;
+    height: 22vh;
+    margin: 30px;
+    width: 18vw;
+    padding: 1vw;
+    padding-bottom: 10vh;
+    border-radius: 10px;
+}
+.boxes h1{
+    font-family: sans-serif;
+    margin-top: -1px;
+}
+.boxes p{
+    opacity: 0.5;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+.boxes a{
+cursor: pointer;
+color: #f74780;
+font-family: sans-serif;
+font-size: 20px;
+font-weight: bold;
+}
+.boxes a:hover{
+    opacity: 0.5;
+}
+.boxes img{
+    margin-top: -40px;
+
+}
+
+.bg-black {
+    background-color: #131945;
+    padding: 20px;
+}
+
+.main-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 15px 0px 15px;
+}
+
+.logo2 {
+    font-size: 34px;
+    font-weight: 900;
+    color: #fff;
+    margin-left: 200px;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+.footer-btn:hover {
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), linear-gradient(180deg, #4851FF -54.32%, #F02AA6 100%);
+}
+
+.footer-btn {
+    background: linear-gradient(180deg, #4851FF -54.32%, #F02AA6 100%);
+    color: #fff;
+    padding: 1.1em 2.1em;
+    border-radius: 50px;
+    font-weight: 700;
+    font-size: 1.125rem;
+    text-decoration: none;
+    margin-right: 200px;
+}
